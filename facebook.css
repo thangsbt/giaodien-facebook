@@ -1,0 +1,397 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+	    font-family: inherit;
+}
+div{
+	display: block;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background: #3b5998;
+
+}
+header div.left{
+	width: 15%;
+	height: 80px;
+
+	float: left;
+}
+header div.container{
+	width: 70%;
+	height: 80px;
+
+	float: left;
+}
+header div.right{
+ width: 15%;
+ height: 80px;
+
+ float: left;
+}
+.clear{
+	clear: both;	
+}
+
+header div.container div.fblogo{
+	width: 60%;
+	line-height: 80px;
+    margin-top: 8px;
+	float: left;
+	    font-size: 20px;
+	
+}
+header div.container div.fblogo h1 a{
+	list-style: none;
+	text-decoration: none;
+	color:white;
+}
+header div.container div.dangnhap{
+	width: 40%;
+ 
+    float: left;
+   height: 80px;
+}
+.clear{
+	clear: both;
+}
+
+form div.email{
+	width: 40%;
+	height: 80px;
+	float: left;
+	text-align: center;
+	color: white;
+	margin-top:13px ;
+}
+form div.email #ema{
+	  width: 140px;
+  height: 20px;
+  font-size: 10pt;
+  color: #63717f;
+
+}
+form div.pass{
+	width: 40%;
+	height: 80px;
+	float: left;
+	text-align: center;
+		color: white;
+		margin-top:13px ;
+}
+form div.pass #pass{
+	  width: 140px;
+  height: 20px;
+  font-size: 10pt;
+  color: #63717f;
+}
+header div.dangnhap div.a a{
+	 
+	    font-size: 12px;
+    color: white;
+    opacity: 0.4;
+
+}
+header div.dangnhap div.a a:hover{
+	text-decoration: underline;
+}
+header div.dangnhap div.a{
+	margin-top:10px ;
+	text-align: left;
+}
+form div.button button{
+
+	padding: 4px 4px;
+	min-width: 75px;
+	color: white; 
+margin-top:28px ;
+    font-size: 12px;
+    font-weight: bold;
+   line-height: 18px;
+    text-align: center;
+      border: 1px solid #ccd0d5;
+    background-color: #4267b2;
+    
+border-color: #29487d;
+
+}
+form div.button button:hover{
+	border-color: #3759C8 #1F3AE0;
+	background-color: #3b5998;
+	cursor: pointer;
+}
+/* button {
+    border: 1px solid #ccd0d5;
+    background-color: #4267b2;
+    border-color: #29487d;
+} */
+.clear{
+	clear: both;
+}
+nav{
+	width: 100%;
+	background: #e0e4ef;
+
+
+}
+nav div.content{
+	background: linear-gradient(#FEfefe, #d6dbea);
+}
+nav div.left2{
+	width: 15%;
+	height: 700px;
+background: linear-gradient(#FEfefe, #d6dbea);
+	float: left;
+}
+nav div.content{
+	width: 70%;
+	height: 700px;
+float: left;
+
+
+	
+}
+nav div.right2{
+	width: 15%;
+	height: 700px;
+background: linear-gradient(#FEfefe, #d6dbea);
+float: left;
+	
+}
+nav div.content1{
+	width: 60%;
+	float: left;
+	height: 700px;
+	
+}
+nav div.content1 div.ch{
+	
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+
+}
+nav div.conten21{
+	width: 40%;
+	height: 700px;
+	float: left
+
+}
+nav div.content2{
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+div.conten21 div.content2 div.dk div.dangki{
+	font-size: 36px;
+	color: #333;
+	    font-weight: 600;
+	        margin-bottom: 5px;
+}
+div.conten21 div.content2 div.dk div.nhanhchong{
+	width: 100%;
+
+	color: #1d2129;
+    font-size: 20px;
+    margin-bottom: 10px ;
+    
+}
+input[name='url']{
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+input#ho{
+  width: 42%;
+  height: 35px;
+  font-size: 10pt;
+  color: #63717f;
+  padding-left: 5px;
+
+}
+input#ten{
+	margin-left: 5% ;
+  width: 48%;
+  height: 35px;
+  font-size: 10pt;
+  color: #63717f;
+    padding-left: 5px;
+}
+input#email{
+  width: 98%;
+  height: 35px;
+  font-size: 10pt;
+  color: #63717f;
+   padding-left: 5px;
+}
+input#matkhau{
+	 width: 98%;
+  height: 35px;
+  font-size: 10pt;
+  color: #63717f;
+   padding-left: 5px;
+}
+#ngay{
+	width: 25%;
+  height: 35px;
+  font-size: 10pt;
+  color: black;
+   padding-left: 5px;
+}
+#thang{
+	width: 25%;
+  height: 35px;
+  font-size: 10pt;
+ color: black;
+  padding-left: 5px;
+}
+#nam{
+	width: 25%;
+  height: 35px;
+  font-size: 10pt;
+ color: black;
+  padding-left: 5px;
+}
+input#gioitinh{
+	
+  height: 35px;
+  font-size: 10pt;
+  color: #63717f;
+   padding-left: 5px;
+
+}
+span#gioitinh{
+	font-size: 25px;
+	color: black;
+}
+div.dangki form button#dangki{
+	min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 19px;
+}
+div.dangki form button#dangki:hover{
+	   background: linear-gradient(#74b560, #5c9048);
+    background-color: #69a74e;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    cursor: pointer;
+}
+div.taotrang{
+	   border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.clear{
+	clear: both;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	clear: left;
+}
+footer div.footer-left{
+	width: 15%;
+	height: 200px;
+
+	float: left;
+}
+footer div.footer-center{
+	width: 70%;
+	height: 200px;
+	float: left;
+}
+footer div.footer-right{
+	width: 15%;
+	height: 200px;
+	
+	float: left;
+}
+footer div.footer-center div.ngonngu{
+	height: 35px;
+}
+footer div.footer-center ul.ngonngu {
+	    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+        list-style-type: none;
+        font-size: 14px;
+
+}
+ul{
+	margin: 0;
+    padding: 0;
+}
+footer div.footer-center ul.ngonngu li{
+	padding: 0px 5px;
+	
+}
+footer div.footer-center div.gachchan{
+	
+	    border-bottom: 1px solid #dddfe2;
+	    height: 1px;
+
+	    
+}
+footer div.footer-center ul.ngonngu li#tv{
+	color: #737373;
+}
+footer div.footer-center ul.ngonngu li a{
+	color: #385898;
+}
+footer div.footer-center div.danhmuc{
+	height: 80px;
+	padding: 0;
+	margin: 0;
+
+}
+footer div.footer-center ul.danhmuc{
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+ font-size: 12px;
+
+}
+footer div.footer-center ul.danhmuc li{
+	margin: 0;
+
+	padding: 5px 6px 0px 0px;
+	
+}
+div span{
+	padding: 0;
+	margin: 0;
+	    color: #737373;
+	    font-size: 11px;	
+}
+footer div.footer-center div.danhmuc ul.danhmuc li a{
+color: #385898;
+}
+footer div.footer-center div.danhmuc ul.danhmuc li#dm{
+padding-left: 18px;
+}
